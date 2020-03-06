@@ -1,0 +1,70 @@
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 300px) {
+    .jb-1{
+        margin-top: 110px;
+    }
+    .caption-title{
+        font-size: 18px;
+    }
+    .caption-description{
+        display: none;
+    }
+    .welcomeMessage{
+        font-size: 32px!important;
+
+    }
+    .welcomeDescription{
+        font-size: 24px!important;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .jb-1{
+
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .jb-1{
+        margin-top: 30px;
+    }
+    .caption-title{
+        font-size: 40px;
+    }
+    .caption-description{
+        display: block;
+    }
+    .welcomeMessage{
+        font-size: 48px!important;
+
+    }
+    .welcomeDescription{
+        font-size: 40px!important;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .jb-1{
+        font-size: 64px;
+    }
+
+    .jb-3{
+        font-size: 56px;
+    }
+    .caption-description{
+        display: block;
+    }
+}

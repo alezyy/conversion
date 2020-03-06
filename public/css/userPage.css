@@ -1,0 +1,103 @@
+.burger{
+    font-size: 36px;
+    color: white!important;
+    padding: 25px;
+}
+.nav-menu{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.nav-menu li{
+    margin-left: 10px;
+    padding: 5px;
+}
+.nav-menu li:hover{
+    background-color: #3f9ae5;
+}
+.top-item{
+    color: white!important;
+}
+.top-item ion-icon{
+    font-size: 24px;
+}
+
+.top-item span {
+    margin-top: -8px;
+    font-size: 12px;
+}
+.page-footer{
+    background-color: #1d68a7;
+    color: white;
+    position: fixed;
+    bottom: 0px;
+    z-index: 0;
+    width: 100%;
+}
+.page-footer a{
+    color: white;
+}
+.close-btn{
+    display: none;
+    font-size: 36px;
+    color: white!important;
+    padding: 25px;
+}
+
+.btn-reload{
+    background-color: white;
+    color: green!important;
+    border: 1px solid green!important;
+}
+.eblast-alert{
+    color: red;
+}
+#btn-search{
+    font-size: 24px;
+}
+
+.btn-active{
+    background-color: gainsboro!important;
+    border-radius: 0!important;
+}
+.btn-deactive{
+    background-color: #b8c2cc!important;
+    border-radius: 0!important;
+}
+
+@media all and (max-width: 780px) {
+    #sideNav{
+        float: left;
+    }
+    .burger{
+        display: block;
+    }
+    .top-item span {
+        display: none;
+    }
+    .nav-menu {
+        margin-top: 20px;
+    }
+    .nav-menu li{
+        margin-left: 2px;
+        padding: 2px;
+    }
+    .eblast-alert{
+        float: left;
+        font-size: 13px;
+    }
+    .filters{
+        margin-top: 10px;
+        float: left!important;
+    }
+}
+@media all and (max-width: 600px) {
+    .nav-menu {
+        margin-top: 30px;
+    }
+}
+
+@media all and (min-width: 780px) {
+    .burger{
+        display: none;
+    }
+}

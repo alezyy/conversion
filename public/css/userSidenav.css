@@ -1,0 +1,63 @@
+#sideNav{
+    background-color: white;
+    height: 100%;
+}
+#sideNavTopBan{
+    background-color: #4eacff;
+    width: 100%;
+    height: 90px;
+}
+
+.userCompanyName{
+    margin-top: -100px;
+}
+
+#sideNavMenuList{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#sideNavMenuList li{
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 100%;
+    border-bottom: 1px solid gainsboro;
+    height: 64px;
+
+}
+#sideNavMenuList li a{
+    color: inherit;
+    text-decoration: none;
+}
+
+#sideNavMenuList li:hover{
+    background-color: #4eacff;
+    color: white!important;
+}
+
+#collapseExample {
+    height: 120px!important;
+}
+#collapseExample:hover{
+    background-color: white!important;
+}
+.ulreport{
+    list-style-type: none;
+    margin-top: -29px;
+    margin-left: -15px;
+    margin-right: 0px;
+    padding: 0;
+}
+.ulreport li{
+    color: black;
+}
+
+
+#sideNavBottomLogo img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 50%;
+}
